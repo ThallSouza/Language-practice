@@ -7,7 +7,7 @@ import { Card, CardContent } from './components/ui/card'
 
 function App() {
   return (
-    <div>
+    <div className='container mx-md'>
       <div className='flex flex-col gap-8  p-6'>
         <div>
           <Button size='icon'><ArrowLeft/></Button>
